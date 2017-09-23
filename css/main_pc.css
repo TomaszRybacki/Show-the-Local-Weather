@@ -1,0 +1,122 @@
+@media only screen and (min-width:462px) {
+    /* Kolory */
+    /*
+czerwony:             #d93427;
+czarny:               #18121e;
+żółty:                #f3eb12;
+niebieski:            #5ba5f1;
+ciemny niebieski:     #1a62af;
+biały:
+
+*/
+    /* Czcionki */
+    /*
+w3-large	Specifies a font size of 18 pixels
+w3-xlarge	Specifies a font size of 24 pixels
+w3-xxlarge	Specifies a font size of 32 pixels
+w3-xxxlarge	Specifies a font size of 48 pixels
+w3-jumbo	Specifies a font size of 64 pixels
+*/
+    /* ******** Layout ******** */
+    #wrapper {
+        background: #18121e;
+        width: 100%;
+        height: 100vh;
+        font-family: 'Baloo Bhaina', cursive;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(../images/backgroundSmall.jpg);
+        background-repeat: space;
+    }
+    #table {
+        flex: 1 1 80%;
+        max-width: 800px;
+        min-width: 400px;
+        height: 80%;
+        max-height: 600px;
+        min-height: 400px;
+        border: solid white 6px;
+        border-radius: 40px;
+        border-top: none;
+        border-bottom: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background: #18121e;
+    }
+    #city {
+        width: 80%;
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border: solid white 6px;
+        border-radius: 40px;
+        border-top: none;
+        border-bottom: none;
+    }
+    #icons {
+        flex: 1 1 100%;
+        height: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #description {
+        flex: 1 1 100%;
+        height: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #button {
+        width: 120px;
+        height: 40px;
+        background: #18121e;
+        color: #d93427;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        border: #d93427 solid 2px;
+        margin: 20px 20px;
+    }
+    #button:hover {
+        cursor: pointer;
+        background: #d93427;
+        color: #18121e;
+    }
+    .termometr {
+        width: 48px;
+        height: 128px;
+        margin: 0px 60px;
+    }
+    /* ******** Styles ******** */
+    h1 {
+        font-size: 32px;
+        color: white;
+        flex: 1 1 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+    h2 {
+        font-size: 42px;
+        color: white;
+        flex: 1 1 100%;
+        text-align: center;
+    }
+    h3 {
+        font-size: 32px;
+    }
+    p {
+        font-size: 48px;
+        color: white;
+        margin: 0px 20px;
+    }
+    .jednostka {
+        font-size: 48px;
+        color: white;
+    }
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="author" content="Tomasz Rybacki">
+    <meta name="keywords" content="prognoza pogody">
+    <meta name="description" content="W pełni responsywna strona, która wyświetla pogodę w Twojej obecnej lokalizacji.">
+
+    <title>Lokalna pogoda</title>
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon96x96.png">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main_pc.css">
+    <link rel="stylesheet" href="css/main_mobile.css">
+
+    <!-- FACEBOOK -->
+    <meta property="og:image" content="http://taniec.ostroleka.pl/img/Salsa_FB.jpg" />
+    <meta property="og:title" content="Lokalna pogoda" />
+    <meta property="og:description" content="W pełni responsywna strona, która wyświetla pogodę w Twojej obecnej lokalizacji." />
+    <meta property="og:url" content="http://taniec.ostroleka.pl" />
+    <meta property="og:site_name" content="Lokalna pogoda" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pl_PL">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="table">
+            <div id="city">
+                <h1>Prognoza pogody, dla:</h1>
+                <h2></h2>
+            </div>
+
+            <div id="icons">
+                <img src="images/burza.png" alt="ikona pogody">
+            </div>
+            <div id="description">
+                <img class="termometr" src="images/termometr.png" alt="ikona termometr">
+                <p></p><span class="jednostka">&#8451;</span>
+                <div id="button">
+                    <h3>&#x2103; / &#x2109;</h3>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="scripts/jquery-3.2.0.min.js"></script>
+    <script src="scripts/code.js"></script>
+</body>
+
+</html>
